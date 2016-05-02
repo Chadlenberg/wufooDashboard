@@ -99,8 +99,10 @@
 		3AED93D61CD6F1F000D2D1E6 /* wufooReader */ = {
 			isa = PBXGroup;
 			children = (
+				3AED940A1CD6F2A600D2D1E6 /* Model */,
+				3AED94091CD6F29F00D2D1E6 /* View */,
+				3AED94081CD6F29300D2D1E6 /* Controller */,
 				3AED93D71CD6F1F000D2D1E6 /* AppDelegate.swift */,
-				3AED93D91CD6F1F000D2D1E6 /* ViewController.swift */,
 				3AED93DB1CD6F1F000D2D1E6 /* Main.storyboard */,
 				3AED93E11CD6F1F000D2D1E6 /* Assets.xcassets */,
 				3AED93E31CD6F1F000D2D1E6 /* LaunchScreen.storyboard */,
@@ -126,6 +128,28 @@
 				3AED93FC1CD6F1F000D2D1E6 /* Info.plist */,
 			);
 			path = wufooReaderUITests;
+			sourceTree = "<group>";
+		};
+		3AED94081CD6F29300D2D1E6 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				3AED93D91CD6F1F000D2D1E6 /* ViewController.swift */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		3AED94091CD6F29F00D2D1E6 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		3AED940A1CD6F2A600D2D1E6 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
