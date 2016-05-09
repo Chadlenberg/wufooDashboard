@@ -1,4 +1,95 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<model name="Test1.xcdatamodel" userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="1" systemVersion="11A491" minimumToolsVersion="Automatic" macOSVersion="Automatic" iOSVersion="Automatic">
-    <elements/>
+<model userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="10171" systemVersion="15E65" minimumToolsVersion="Automatic">
+    <entity name="Camper" representedClassName=".Camper" syncable="YES">
+        <attribute name="activitiesInvolvedIn" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="addressCity" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="addressLineOne" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="addressState" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="addressZip" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="allergyExplanation" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="canTextCell" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="cellNumber" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="dateOfBirth" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="doesClaimChrist" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="doesHaveAllergies" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="doesHaveOtherConditions" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="doesOwnBible" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="doesTakeMeds" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="emailAddress" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="familyattends" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="familyDoesAttendChurch" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="familySummary" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="favoriteMovie" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="favoriteSnack" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="favoriteSport" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="firstName" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="grade" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="hasBeenBaptized" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="hasBeenToCamp" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="hasMemorizedScripture" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="hasPaid" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="hasPrayed" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="hasReadBible" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="howToPray" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="instagramUsername" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="lastName" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="medExplanation" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="otherConditionsExplanation" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="parentEmail" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="paymentMethod" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="shirtSize" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="smallGroup" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="twitterHandle" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="wasInvited" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="whereWasBaptized" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="whoWasInvitedBy" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="whyComeToCamp" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="yearOfLastTetanus" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="emergencyContact" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Emergency_Contact" syncable="YES"/>
+        <relationship name="insurance" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Insurance_Info" syncable="YES"/>
+    </entity>
+    <entity name="Emergency_Contact" representedClassName=".Emergency_Contact" syncable="YES">
+        <attribute name="firstName" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="lastName" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="primaryPhoneNumber" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="secondaryPhoneNumber" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="Insurance_Info" representedClassName=".Insurance_Info" syncable="YES">
+        <attribute name="city" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="company" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="doesReqNotificationPriorToER" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="emergencyNotificationNumber" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="phoneNumber" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="policyHolder" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="policyNumber" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="state" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="zip" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="sponsor" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Sponsor" inverseName="insuranceInfo" inverseEntity="Sponsor" syncable="YES"/>
+    </entity>
+    <entity name="Sponsor" representedClassName=".Sponsor" syncable="YES">
+        <attribute name="addressLineOne" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="allergyExplanation" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="city" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="dateOfBirth" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="doesHaveAllergies" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="doesHaveOtherConditions" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="doesTakeMeds" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="firstName" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="lastName" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="medsExplanation" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="otherConditionsExplanation" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="phoneNumber" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="shirtSize" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="state" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="yearOfLastTetanusShot" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="zip" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="emergencyContact" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Emergency_Contact" syncable="YES"/>
+        <relationship name="insuranceInfo" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Insurance_Info" inverseName="sponsor" inverseEntity="Insurance_Info" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="Emergency_Contact" positionX="81" positionY="66" width="128" height="103"/>
+        <element name="Sponsor" positionX="-81" positionY="-330" width="128" height="313"/>
+        <element name="Insurance_Info" positionX="126" positionY="-312" width="128" height="193"/>
+        <element name="Camper" positionX="270" positionY="-342" width="128" height="733"/>
+    </elements>
 </model>

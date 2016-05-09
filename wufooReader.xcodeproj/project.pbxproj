@@ -7,11 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3A0766691CE03A33002FA05D /* Camper+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A0766621CE03A33002FA05D /* Camper+CoreDataProperties.swift */; };
+		3A07666A1CE03A33002FA05D /* Camper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A0766631CE03A33002FA05D /* Camper.swift */; };
+		3A07666B1CE03A33002FA05D /* Emergency_Contact+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A0766641CE03A33002FA05D /* Emergency_Contact+CoreDataProperties.swift */; };
+		3A07666C1CE03A33002FA05D /* Emergency_Contact.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A0766651CE03A33002FA05D /* Emergency_Contact.swift */; };
+		3A07666D1CE03A33002FA05D /* Insurance_Info+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A0766661CE03A33002FA05D /* Insurance_Info+CoreDataProperties.swift */; };
+		3A07666E1CE03A33002FA05D /* Insurance_Info.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A0766671CE03A33002FA05D /* Insurance_Info.swift */; };
+		3A07666F1CE03A33002FA05D /* Sponsor+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A0766681CE03A33002FA05D /* Sponsor+CoreDataProperties.swift */; };
 		3A9D366A1CD83E0E0003A804 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A9D36691CD83E0E0003A804 /* LoginViewController.swift */; };
-		3A9D366C1CD83EAF0003A804 /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A9D366B1CD83EAF0003A804 /* Person.swift */; };
-		3A9D366E1CD8411F0003A804 /* Emergency Contact.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A9D366D1CD8411F0003A804 /* Emergency Contact.swift */; };
-		3A9D36701CD844320003A804 /* Sponsor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A9D366F1CD844320003A804 /* Sponsor.swift */; };
-		3A9D36721CD84B800003A804 /* insuranceStruct.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A9D36711CD84B800003A804 /* insuranceStruct.swift */; };
+		3AB6A6A01CDFF14D0006792F /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AB6A69F1CDFF14D0006792F /* Extensions.swift */; };
 		3AED93D81CD6F1F000D2D1E6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AED93D71CD6F1F000D2D1E6 /* AppDelegate.swift */; };
 		3AED93DA1CD6F1F000D2D1E6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AED93D91CD6F1F000D2D1E6 /* ViewController.swift */; };
 		3AED93DD1CD6F1F000D2D1E6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3AED93DB1CD6F1F000D2D1E6 /* Main.storyboard */; };
@@ -40,11 +44,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3A0766621CE03A33002FA05D /* Camper+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Camper+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		3A0766631CE03A33002FA05D /* Camper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Camper.swift; sourceTree = "<group>"; };
+		3A0766641CE03A33002FA05D /* Emergency_Contact+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Emergency_Contact+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		3A0766651CE03A33002FA05D /* Emergency_Contact.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Emergency_Contact.swift; sourceTree = "<group>"; };
+		3A0766661CE03A33002FA05D /* Insurance_Info+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Insurance_Info+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		3A0766671CE03A33002FA05D /* Insurance_Info.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Insurance_Info.swift; sourceTree = "<group>"; };
+		3A0766681CE03A33002FA05D /* Sponsor+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Sponsor+CoreDataProperties.swift"; sourceTree = "<group>"; };
 		3A9D36691CD83E0E0003A804 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
-		3A9D366B1CD83EAF0003A804 /* Person.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
-		3A9D366D1CD8411F0003A804 /* Emergency Contact.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Emergency Contact.swift"; sourceTree = "<group>"; };
-		3A9D366F1CD844320003A804 /* Sponsor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Sponsor.swift; sourceTree = "<group>"; };
-		3A9D36711CD84B800003A804 /* insuranceStruct.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = insuranceStruct.swift; sourceTree = "<group>"; };
+		3AB6A69F1CDFF14D0006792F /* Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 		3AED93D41CD6F1F000D2D1E6 /* wufooReader.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = wufooReader.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3AED93D71CD6F1F000D2D1E6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3AED93D91CD6F1F000D2D1E6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -86,6 +94,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3AB6A6A11CDFF2100006792F /* utilities */ = {
+			isa = PBXGroup;
+			children = (
+				3AB6A69F1CDFF14D0006792F /* Extensions.swift */,
+			);
+			name = utilities;
+			sourceTree = "<group>";
+		};
 		3AED93CB1CD6F1EF00D2D1E6 = {
 			isa = PBXGroup;
 			children = (
@@ -109,6 +125,7 @@
 		3AED93D61CD6F1F000D2D1E6 /* wufooReader */ = {
 			isa = PBXGroup;
 			children = (
+				3AB6A6A11CDFF2100006792F /* utilities */,
 				3AED940A1CD6F2A600D2D1E6 /* Model */,
 				3AED94091CD6F29F00D2D1E6 /* View */,
 				3AED94081CD6F29300D2D1E6 /* Controller */,
@@ -159,10 +176,13 @@
 		3AED940A1CD6F2A600D2D1E6 /* Model */ = {
 			isa = PBXGroup;
 			children = (
-				3A9D366B1CD83EAF0003A804 /* Person.swift */,
-				3A9D366D1CD8411F0003A804 /* Emergency Contact.swift */,
-				3A9D366F1CD844320003A804 /* Sponsor.swift */,
-				3A9D36711CD84B800003A804 /* insuranceStruct.swift */,
+				3A0766621CE03A33002FA05D /* Camper+CoreDataProperties.swift */,
+				3A0766631CE03A33002FA05D /* Camper.swift */,
+				3A0766641CE03A33002FA05D /* Emergency_Contact+CoreDataProperties.swift */,
+				3A0766651CE03A33002FA05D /* Emergency_Contact.swift */,
+				3A0766661CE03A33002FA05D /* Insurance_Info+CoreDataProperties.swift */,
+				3A0766671CE03A33002FA05D /* Insurance_Info.swift */,
+				3A0766681CE03A33002FA05D /* Sponsor+CoreDataProperties.swift */,
 			);
 			name = Model;
 			sourceTree = "<group>";
@@ -298,12 +318,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3A9D366C1CD83EAF0003A804 /* Person.swift in Sources */,
-				3A9D366E1CD8411F0003A804 /* Emergency Contact.swift in Sources */,
-				3A9D36701CD844320003A804 /* Sponsor.swift in Sources */,
+				3A07666D1CE03A33002FA05D /* Insurance_Info+CoreDataProperties.swift in Sources */,
+				3AB6A6A01CDFF14D0006792F /* Extensions.swift in Sources */,
+				3A07666B1CE03A33002FA05D /* Emergency_Contact+CoreDataProperties.swift in Sources */,
+				3A07666F1CE03A33002FA05D /* Sponsor+CoreDataProperties.swift in Sources */,
+				3A07666C1CE03A33002FA05D /* Emergency_Contact.swift in Sources */,
+				3A0766691CE03A33002FA05D /* Camper+CoreDataProperties.swift in Sources */,
+				3A07666E1CE03A33002FA05D /* Insurance_Info.swift in Sources */,
+				3A07666A1CE03A33002FA05D /* Camper.swift in Sources */,
 				3A9D366A1CD83E0E0003A804 /* LoginViewController.swift in Sources */,
 				3AED93E01CD6F1F000D2D1E6 /* wufooReader.xcdatamodeld in Sources */,
-				3A9D36721CD84B800003A804 /* insuranceStruct.swift in Sources */,
 				3AED93DA1CD6F1F000D2D1E6 /* ViewController.swift in Sources */,
 				3AED93D81CD6F1F000D2D1E6 /* AppDelegate.swift in Sources */,
 			);
